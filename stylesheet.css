@@ -45,16 +45,17 @@ nav ul li {
 }
 
 nav ul li a {
-    display: block;
-    padding: 5px;
-    width: 100px;
-    text-align: center;
-    border: 1px solid #6495ED;
-    border-radius: .5em;
-    margin: .75 em;
-    color: #6495ED;
-    background-color: white;
+display: block;
+padding: 5px;
+width: 100px;
+text-align: center;
+border: 1px solid #6495ED;
+border-radius: .5em;
+margin: .75 em;
+color: #6495ED;
+background-color: white;
 }
+
 
 a { text-decoration: none;
    }
@@ -143,7 +144,17 @@ border-bottom: .3125em solid #41b7d8;
 padding: 0 5.5%;
 }
 
-#PDF { float: right;}
+.footer { width: 75%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+#PDF { text-align: center;
+float: right;
+clear: both;
+padding: 20px;}
 
 
 ---------
