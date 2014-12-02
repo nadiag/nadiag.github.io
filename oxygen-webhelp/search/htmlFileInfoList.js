@@ -1,0 +1,14 @@
+fil = new Array();
+fil["0"]= "accesshokiespa.html@@@How to access Hokiespa@@@Everything you need to know to access Hokiesp...";
+fil["1"]= "administrativeholds.html@@@How to view administrative holds@@@Everything you need to know to view administrative holds...";
+fil["2"]= "courserequest.html@@@How to do Course Request@@@Everything you need to know to complete Course Request...";
+fil["3"]= "dars.html@@@How to view the DARS report@@@Everything you need to know to view the DARS report...";
+fil["4"]= "degreemenu.html@@@Degree Menu@@@The Degree Menu is a sub-menu within the Hokiespa menu...";
+fil["5"]= "e-bill.html@@@How to view and pay the e-bill@@@Everything you need to know to view and pay the e-bill...";
+fil["6"]= "finalgrades.html@@@How to view final grades@@@Everything you need to know to view final grades...";
+fil["7"]= "gradesmenu.html@@@Grades Menu@@@The Grades Menu is a sub-menu within the Hokiespa menu...";
+fil["8"]= "overallgpa.html@@@How to calculate overall GPA@@@Everything you need to know to calculate your overall GP...";
+fil["9"]= "registrationandschedule.html@@@Registration and Schedule@@@Registration and Schedule is a sub-menu within the Hokiespa menu...";
+fil["10"]= "semestergpa.html@@@How to calculate GPA for a semester@@@Everything you need to know to calculate your GPA for a semester...";
+fil["11"]= "timetable.html@@@How to access the Timetable of Classes@@@Everything you need to know to access the Timetable of classes...";
+fil["12"]= "transfercredit.html@@@How to view transfer and other additional credit@@@Everything you need to know to view transfer and other additonal credit...";

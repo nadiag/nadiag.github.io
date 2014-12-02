@@ -1,0 +1,47 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><base target="contentwin" /><title>Hokiespa Instructions Manual</title><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/commonltr.css"><!----></link><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/skins/desktop-frames/toc.css"><!----></link><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="test.css"><!----></link><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-1.8.2.min.js"><!----></script><script xmlns="" type="text/javascript" src="oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" charset="utf-8" src="oxygen-webhelp/resources/js/jquery.highlight-3.js"></script><script type="text/javascript" src="oxygen-webhelp/search/htmlFileList.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/search/htmlFileInfoList.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/search/nwSearchFnt.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/search/stemmers/en_stemmer.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/search/index-1.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/search/index-2.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/search/index-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="oxygen-webhelp/resources/localization/strings.js"><!----></script><script type="text/javascript" charset="utf-8" src="oxygen-webhelp/resources/js/localization.js"><!----></script><script src="./oxygen-webhelp/resources/js/browserDetect.js" type="text/javascript"><!----></script><script type="text/javascript" charset="utf-8" src="oxygen-webhelp/resources/js/parseuri.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/log.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/skins/desktop-frames/toc.js"><!----></script></head><body onload="javascript:showMenu('content');"><h1>Hokiespa Instructions Manual</h1><noscript><style type="text/css">
+              #searchBlock,
+              #preload,
+              #indexBlock,
+              #tocMenu{
+                  display:none
+              }
+              
+              #tab_nav_tree,
+              #contentBlock ul li ul{
+                  display:block;
+              }
+              #contentBlock ul li span{
+                  padding:0px 5px 0px 5px;
+              }
+              #contentMenuItem:before{
+                  content:"Content";
+              }</style></noscript><div id="header"><div id="lHeader"><table class="tool" cellpadding="0" cellspacing="0"><tr><td><div id="tocMenu"><div class="tab" id="content" style="display:inline"><span onclick="showMenu('content')" id="content.label">C
+          Content</span></div><div class="tab" id="search" style="display:inline"><span onclick="showMenu('search')" id="search.label">Search</span></div></div></td><td><div id="productToolbar"><div id="breadcrumbLinks"><!----></div><div id="navigationLinks"><!----></div></div></td></tr></table></div><div id="space"><!----></div></div><div id="splitterContainer"><div id="leftPane"><div id="bck_toc"><div id="searchBlock" style="display:none;"><form name="searchForm" id="searchForm" action="javascript:void(0)" onsubmit="SearchToc('searchForm');">Keywords: <!----><input type="text" id="textToSearch" name="textToSearch" class="textToSearch" size="30" /><!----><input type="submit" value="Search" name="Search" class="searchButton" /></form><div id="searchResults"><!----></div></div><div id="preload">Loading, please wait ...<p><img src="oxygen-webhelp/resources/img/spinner.gif" alt="Loading" /></p></div><div id="contentBlock"><div id="tab_nav_tree_placeholder"><div id="expnd"><a href="javascript:void(0);" onclick="collapseAll();" id="collapseAllLink" title="CollapseAll"><img src="oxygen-webhelp/resources/img/CollapseAll16.png" alt="Collapse All" border="0" /></a></div><div id="tab_nav_tree" class="visible_tab"><div id="tree"><ul><li><span><a href="accesshokiespa.html">How to access Hokiespa</a></span></li><li><span><a href="registrationandschedule.html">Registration and Schedule</a></span></li><li><span><a href="timetable.html">How to access the Timetable of Classes</a></span></li><li><span><a href="courserequest.html">How to do Course Request</a></span></li><li><span><a href="drop/add.html"></a></span></li><li><span><a href="gradesmenu.html">Grades Menu</a></span></li><li><span><a href="finalgrades.html">How to view final grades</a></span></li><li><span><a href="transfercredit.html">How to view transfer and other additional credit</a></span></li><li><span><a href="semestergpa.html">How to calculate GPA for a semester</a></span></li><li><span><a href="overallgpa.html">How to calculate overall GPA </a></span></li><li><span><a href="degreemenu.html">Degree Menu</a></span></li><li><span><a href="dars.html">How to view the DARS report </a></span></li><li><span><a href="auniversityaccountinfo.html"></a></span></li><li><span><a href="e-bill.html">How to view and pay the e-bill</a></span></li><li><span><a href="authorizepayers.html"></a></span></li><li><span><a href="administrativeholds.html">How to view administrative holds</a></span></li></ul></div></div></div></div></div><div class="footer"></div></div></div><script type="text/javascript"><!--                              
+             $(function () {
+                  $('input#id_search').keyup(function(){
+                    $("ul#indexList li").hide();
+                    if ($("input#id_search").val() != '') {
+                      var sk=$("input#id_search").val();
+                      $('ul#indexList').removeHighlight();
+                      $('ul#indexList').highlight(sk,"highlight");
+
+                      $("div:contains('"+sk+"')").each(function(){
+                        if ($(this).parents("#indexList").size()>0){                          
+                          $(this).show();
+                          $(this).parents().show();
+                          $(this).parent().find('ul').show();
+                          if ($(this).find('a').size()==0){
+                            $(this).parent().find('ul li').show();                            
+                          }                                                    
+                        }
+                      });
+                    }else{
+                      $("ul#indexList li").show();
+                      $('ul#indexList').removeHighlight();
+                    }
+                  });
+                });
+            --></script></body></html>
