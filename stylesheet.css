@@ -32,6 +32,7 @@ body {
 ul {
     font-family: raleway, sans-serif;
     color: #2F4F4F;
+    float: right;
 }
 
 nav ul  {
@@ -41,13 +42,14 @@ nav ul  {
 }
 
 nav ul li {
-    float: left;
+    float: none;
+
 }
 
 nav ul li a {
 display: block;
-padding: 5px;
-width: 100px;
+padding: 10px;
+width: 110px;
 text-align: center;
 border: 1px solid #6495ED;
 border-radius: .5em;
@@ -55,6 +57,19 @@ margin: .75 em;
 color: #6495ED;
 background-color: white;
 }
+
+nav ul ul {
+	display: none;
+  clear: both;
+  float: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+    clear: both;
+    float: none;
+    position: absolute;
+	}
 
 
 a { text-decoration: none;
@@ -149,6 +164,10 @@ padding: 0 5.5%;
   text-align: center;
 
 }
+
+.welcome {float: left;
+margin: 0 auto;}
+
 
 
 #PDF { text-align: center;
