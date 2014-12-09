@@ -3,18 +3,19 @@ h1{
 }
     h2, h3, h4, h5, h6 {
     font-family: raleway, sans-serif;
-    font-size: 32px
+    font-size: 32px;
 }
+
 
 h1 {
-    text-align: center;
     color: #00BFFF;
+    text-align: center;
 }
 
-
 h2 {
-    font-size: 22px;
-    color: #00BFFF;
+  font-size: 22px;
+  color: #00BFFF;
+  text-align: center;
 }
 
 hr {color: black; }
@@ -32,18 +33,23 @@ body {
 ul {
     font-family: raleway, sans-serif;
     color: #2F4F4F;
-    float: right;
 }
 
 nav ul  {
     list-style-type: none;
     padding: 0;
     margin: 0;
+  position: relative;
+  display: inline;
 }
 
-nav ul li {
-    float: none;
 
+nav ul li {
+    float: left;
+}
+
+#nav {
+float: right;
 }
 
 nav ul li a {
@@ -51,24 +57,20 @@ display: block;
 padding: 10px;
 width: 110px;
 text-align: center;
-border: 1px solid #6495ED;
 border-radius: .5em;
 margin: .75 em;
 color: #6495ED;
-background-color: white;
+background-color: #E0FFFF;
 }
 
 nav ul ul {
 	display: none;
-  clear: both;
-  float: none;
+  overflow: hidden;
+
 }
 
 	nav ul li:hover > ul {
 		display: block;
-    clear: both;
-    float: none;
-    position: absolute;
 	}
 
 
@@ -113,13 +115,18 @@ h1 {
     margin: 0px;
 }
 
-#welcome {
-    box-sizing: border-box;
-}
 
-#welcome {
+.welcome {
     font-family: raleway, sans-serif;
     color: #2F4F4F;
+    font-size: 32px;
+    color: #00BFFF;
+    float: left;
+    text-align: left;
+}
+
+.hi {
+  text-align: left;;
 }
 
 hr {
@@ -137,16 +144,28 @@ img.align-right {
 }
 
 .bio-pic {
-    border-radius: 50%;
-    float: left;
-    width: 20%;
-    clear: both;
-    padding: .5em 0;
+        border-radius: 50%; white;
+        float: left;
+        width: 20%;
+        clear: both;
+        padding: .5em 0;
+        border: white;
+
 }
 
 .bio{
 float: right;
 width: 75%;
+}
+
+.footer-pic {
+  border-radius: 50%;
+  display: block;
+  clear: none;
+  padding: .5em 0;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .clear {
@@ -156,23 +175,21 @@ width: 75%;
 
 .border-bottom {
 border-bottom: .3125em solid #41b7d8;
-padding: 0 5.5%;
+padding: 5 5 .5%;
 }
 
-.footer { width: 75%;
-  margin: 0 auto;
-  text-align: center;
-
+.footer
+{
+text-align: center;
 }
 
-.welcome {float: left;
-margin: 0 auto;}
-
-
+.heading {
+  text-align: left;
+}
 
 #PDF { text-align: center;
 float: right;
-clear: both;
+clear: none;
 padding: 20px;}
 
 
