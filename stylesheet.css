@@ -144,7 +144,7 @@ img.align-right {
 }
 
 .bio-pic {
-        border-radius: 50%; white;
+        border-radius: 50%;
         float: left;
         width: 20%;
         clear: both;
@@ -166,6 +166,12 @@ width: 75%;
   margin-left: auto;
   margin-right: auto;
 
+}
+
+.tech-pic {
+  float: right;
+  width: 250px;
+  padding: 20px;
 }
 
 .clear {
