@@ -125,22 +125,11 @@ width: 75%;
 
 
 
-
-
-.bio-pic {
-        border-radius: 50%;
-        float: left;
-        width: 20%;
-        clear: both;
-        padding: .5em 0;
-        border: white;
-
+.footer
+{
+text-align: center;
 }
 
-.bio{
-float: right;
-width: 75%;
-}
 
 .footer-pic {
   border-radius: 50%;
