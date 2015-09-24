@@ -122,3 +122,32 @@ width: 75%;
     clear: both;
     margin: 2em 0 2em;
 }
+
+
+
+
+
+.bio-pic {
+        border-radius: 50%;
+        float: left;
+        width: 20%;
+        clear: both;
+        padding: .5em 0;
+        border: white;
+
+}
+
+.bio{
+float: right;
+width: 75%;
+}
+
+.footer-pic {
+  border-radius: 50%;
+  display: block;
+  clear: none;
+  padding: .5em 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
