@@ -1,0 +1,90 @@
+body {
+    padding: 0 5.5% 4em; 
+    vertical-align: baseline}
+    
+figcaption {
+    font-family: 'Proxima Nova Italic',"Helvetica Neue",Calibri,"Droid Sans",Helvetica,Arial,sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: .875em;
+color: rgba(0,0,0,.5);
+padding: .5em 0;}
+    
+h1 { font-family: 'Skolar Bold',Palatino,Cambria,"Droid Serif",Georgia,"Times New Roman",Times,serif;
+font-weight: 700;
+font-style: normal;}
+
+h2 {font-family: "Skolar Regular",Palatino,Cambria,"Droid Serif",Georgia,"Times New Roman",Times,serif;
+font-weight: 700;
+font-style: normal;}
+
+p {font-family: "Proxima Nova Regular","Helvetica Neue",Calibri,"Droid Sans",Helvetica,Arial,sans-serif; 
+font-weight: 400;
+font-style: normal;
+padding: .5em 0;
+line-height: 1.4em;
+}
+
+ul {font-family: "Proxima Nova Regular","Helvetica Neue",Calibri,"Droid Sans",Helvetica,Arial,sans-serif;
+font-weight: 400;
+font-style: normal;
+padding: 0 5.5%; 
+line-height: 1.4em;}
+
+li {font-family: "Proxima Nova Regular","Helvetica Neue",Calibri,"Droid Sans",Helvetica,Arial,sans-serif;
+font-weight: 400;
+font-style: normal 
+}
+
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+
+a {
+text-decoration: none;
+color: #41b7d8;
+font-family: "Skolar Regular",Palatino,Cambria,"Droid Serif",Georgia,"Times New Roman",Times,serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h3 {text-decoration: none;
+color: rgba(0,0,0,.3);
+font-family: "Skolar Regular",Palatino,Cambria,"Droid Serif",Georgia,"Times New Roman",Times,serif;
+font-weight: 400;
+font-style: normal;}
+
+h3.intro {
+color: #000000;
+font-family: "Skolar Regular",Palatino,Cambria,"Droid Serif",Georgia,"Times New Roman",Times,serif;
+font-weight: 400;
+font-style: normal;
+line-height: 1.4em;
+    
+}
+
+.border-bottom {
+border-bottom: .3125em solid #41b7d8;
+padding: 0 5.5%;
+}
+
+.bio-pic {
+    border-radius: 50%;
+    float: left;
+    width: 20%;
+    clear: both;
+    padding: .5em 0;
+}
+
+.bio{
+float: right;
+width: 75%; 
+}
+
+.clear {
+    clear: both;
+    margin: 2em 0 2em;
+}
+
