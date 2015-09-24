@@ -22,8 +22,6 @@ width: 110px;
 text-align: center;
 border-radius: .5em;
 margin: .75 em;
-color: #6495ED;
-background-color: #E0FFFF;
 }
 
 nav ul ul {
@@ -35,7 +33,6 @@ nav ul ul {
 	nav ul li:hover > ul {
 		display: block;
 	}
-
 body {
     padding: 0 5.5% 4em;
     vertical-align: baseline}
